@@ -15,20 +15,20 @@
  * limitations under the License.
  */
 
-group 'org.apache.fineract.cn.provisioner'
-version '0.1.0-BUILD-SNAPSHOT'
+group 'com.github.mobjex.fineract-cn-provisioner'
+version 'develop-SNAPSHOT'
 
 ext.versions = [
-        fineractidentityservice : '0.1.0-BUILD-SNAPSHOT',
-        frameworkanubis         : '0.1.0-BUILD-SNAPSHOT',
-        frameworkanput          : '0.1.0-BUILD-SNAPSHOT',
-        frameworkapi            : '0.1.0-BUILD-SNAPSHOT',
-        frameworklang           : '0.1.0-BUILD-SNAPSHOT',
-        frameworkasync          : '0.1.0-BUILD-SNAPSHOT',
-        frameworkcassandra      : '0.1.0-BUILD-SNAPSHOT',
-        frameworkmariadb        : '0.1.0-BUILD-SNAPSHOT',
-        frameworkcrypto         : '0.1.0-BUILD-SNAPSHOT',
-        frameworktest           : '0.1.0-BUILD-SNAPSHOT',
+        fineractidentityservice : 'develop-SNAPSHOT',
+        frameworkanubis         : 'develop-SNAPSHOT',
+        frameworkanput          : 'develop-SNAPSHOT',
+        frameworkapi            : 'develop-SNAPSHOT',
+        frameworklang           : 'develop-SNAPSHOT',
+        frameworkasync          : 'develop-SNAPSHOT',
+        frameworkcassandra      : 'develop-SNAPSHOT',
+        frameworkmariadb        : 'develop-SNAPSHOT',
+        frameworkcrypto         : 'develop-SNAPSHOT',
+        frameworktest           : 'develop-SNAPSHOT',
         springcontext           : '4.3.3.RELEASE',
         activeMQ                : '5.13.2',
         validator               : '5.3.0.Final'
@@ -48,6 +48,7 @@ tasks.withType(JavaCompile) {
 repositories {
     jcenter()
     mavenLocal()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencyManagement {

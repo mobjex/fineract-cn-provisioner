@@ -52,23 +52,23 @@ dependencies {
             [group: 'org.springframework', name: 'spring-jms', version: versions.springcontext],
             [group: 'org.apache.activemq', name: 'activemq-broker', version: versions.activeMQ],
             [group: 'org.apache.activemq', name: 'activemq-spring', version: versions.activeMQ],
-            [group: 'org.apache.fineract.cn.provisioner', name: 'api', version: project.version],
-            [group: 'org.apache.fineract.cn.anubis', name: 'library', version: versions.frameworkanubis],
-            [group: 'org.apache.fineract.cn.anubis', name: 'api', version: versions.frameworkanubis],
-            [group: 'org.apache.fineract.cn.permitted-feign-client', name: 'api', version: versions.frameworkanput],
-            [group: 'org.apache.fineract.cn.identity', name: 'api', version: versions.fineractidentityservice],
+            [group: 'com.github.mobjex.fineract-cn-provisioner', name: 'api', version: project.version],
+            [group: 'com.github.mobjex.fineract-cn-anubis', name: 'library', version: versions.frameworkanubis],
+            [group: 'com.github.mobjex.fineract-cn-anubis', name: 'api', version: versions.frameworkanubis],
+            [group: 'com.github.mobjex.fineract-cn-permitted-feign-client', name: 'api', version: versions.frameworkanput],
+            [group: 'com.github.mobjex.fineract-cn-identity', name: 'api', version: versions.fineractidentityservice],
             [group: 'com.google.code.gson', name: 'gson', version: versions.gson],
-            [group: 'org.apache.fineract.cn', name: 'api', version: versions.frameworkapi],
-            [group: 'org.apache.fineract.cn', name: 'lang', version: versions.frameworklang],
-            [group: 'org.apache.fineract.cn', name: 'async', version: versions.frameworkasync],
-            [group: 'org.apache.fineract.cn', name: 'cassandra', version: versions.frameworkcassandra],
-            [group: 'org.apache.fineract.cn', name: 'mariadb', version: versions.frameworkmariadb],
+            [group: 'com.github.mobjex', name: 'fineract-cn-api', version: versions.frameworkapi],
+            [group: 'com.github.mobjex', name: 'fineract-cn-lang', version: versions.frameworklang],
+            [group: 'com.github.mobjex', name: 'fineract-cn-async', version: versions.frameworkasync],
+            [group: 'com.github.mobjex', name: 'fineract-cn-cassandra', version: versions.frameworkcassandra],
+            [group: 'com.github.mobjex', name: 'fineract-cn-mariadb', version: versions.frameworkmariadb],
             [group: 'org.hibernate', name: 'hibernate-validator', version: versions.validator],
-            [group: 'org.apache.fineract.cn', name: 'crypto', version: versions.frameworkcrypto],
+            [group: 'com.github.mobjex', name: 'fineract-cn-crypto', version: versions.frameworkcrypto],
     )
 
     testCompile(
-            [group: 'org.apache.fineract.cn', name: 'test', version: versions.frameworktest],
+            [group: 'com.github.mobjex', name: 'fineract-cn-test', version: versions.frameworktest],
     )
 }
 

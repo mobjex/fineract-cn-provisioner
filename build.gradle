@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-group 'org.apache.fineract.cn'
+group 'com.github.mobjex.fineract-cn-provisioner'
 
 task publishApiToMavenLocal {
     dependsOn gradle.includedBuild('api').task(':publishToMavenLocal')

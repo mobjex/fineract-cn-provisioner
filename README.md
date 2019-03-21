@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/mobjex/fineract-cn-provisioner.svg)](https://jitpack.io/#mobjex/fineract-cn-provisioner)
+
 # Apache Fineract CN Provisioner
 
 This service provisions services for tenants of an Apache Fineract CN installation.
